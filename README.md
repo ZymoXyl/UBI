@@ -11,7 +11,7 @@ A welfare program is defined as a program which provides a benefit to an individ
 B(X,Y)=E(X)∗min{G + S * Y, M, max[M−T(Y −P),0]}
 Where:
 * E(X) is an indicator variable reflecting an individual's eligibility for the welfare program
-* G is the grant for an individual with 0 income
+* G is the guarantee for an individual with 0 income
 * S is the subsidy on income (e.g. the earned income tax credit policy has positive S)
 * M is the maximum benefit
 * P is the income level above which benefits begin to phase out
