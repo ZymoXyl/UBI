@@ -4,7 +4,7 @@ A framework for simulating dynamic effects of UBI (work in progress!)
 This is a very ambitious project to simulate the effects of introducing a UBI policy on a number of target economic parameters of interest. This reserach is tailored to the US but the hope is that the model is general enough to function in any market ecoomy. We consider dynamic effects induced by the interactions of a population of individuals, firms, and the government. Here's a brief summary of how we're treating each of the agents udner consideration (a lot of this is still TBD):
 
 * Populations of individuals - Rather than explicitly instantiating 100 million + individuals, we are instead considering a population (of a given size) with a joint distribution of income and wealth. Individuals are modeled as having (for now) homogeneous preferences regarding consumption and labor. Individuals are taxed according to their income and receive rebates according to their eligibility for welfare programs.
-* Government - The government collects taxes on individuals' and corporations' net income via progressive tax policies. The government also has expenditures via welfare programs - which provide benefits to individuals - and other net expenditures (a constant for now).
+* Government - The government collects taxes on individuals' and corporations' net income via progressive tax policies. The government also has expenditures via welfare programs - which provide benefits to individuals - and other net expenditures (a constant for now). Note that we are not considering monetary policy.
 * Firms - Behavior TBD
 
 A welfare program is defined as a program which provides a benefit to an individual X with income Y given by:
